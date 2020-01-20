@@ -6,6 +6,7 @@
     app:titleTextColor="@color/white"
     android:background="@color/colorPrimary"
     android:layout_height="?attr/actionBarSize"
+    app:titleTextAppearance="@style/Toolbar.TitleText"
     android:orientation="vertical">
 
 </androidx.appcompat.widget.Toolbar>

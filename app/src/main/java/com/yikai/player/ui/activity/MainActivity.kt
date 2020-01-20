@@ -43,4 +43,10 @@ class MainActivity : BaseActivity(), ToolbarManager {
         initMainToolbar()
     }
 
+    override fun initListener() {
+
+
+
+    }
+
 }

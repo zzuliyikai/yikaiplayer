@@ -12,25 +12,19 @@ interface ToolbarManager {
     fun initMainToolbar(){
         toolbar.title = toolbar.context.getString(R.string.app_name)
         toolbar.inflateMenu(R.menu.main)
-
         toolbar.setOnMenuItemClickListener {
             when(it.itemId){
                 R.id.setting -> {
-
                     toolbar.context.startActivity(Intent(toolbar.context, SettingActivity::class.java))
-
                 }
             }
             return@setOnMenuItemClickListener true
         }
-
-
-
     }
 
-
-
-
+    fun  initSettingToolBar(){
+        toolbar.title = toolbar.context.getString(R.string.setting)
+    }
 
 
 }

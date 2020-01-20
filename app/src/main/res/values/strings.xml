@@ -5,4 +5,5 @@
     <string name="mv">mv</string>
     <string name="mvlist">mvList</string>
     <string name="vlist">vlist</string>
+    <string name="clear_cache">清除缓存</string>
 </resources>
