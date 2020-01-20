@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">易凯影音</string>
+    <string name="setting">设置</string>
+    <string name="home">首页</string>
+    <string name="mv">mv</string>
+    <string name="mvlist">mvList</string>
+    <string name="vlist">vlist</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab1"
+        android:icon="@mipmap/bottom_home_icon"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/tab2"
+        android:icon="@mipmap/bottom_mv_unselect"
+        android:title="@string/mv"/>
+    <item
+        android:id="@+id/tab3"
+        android:icon="@mipmap/bottom_mvlist_unselect"
+        android:title="@string/mvlist"/>
+
+    <item
+        android:id="@+id/tab4"
+        android:icon="@mipmap/bottom_vlist_unselect"
+        android:title="@string/vlist"/>
+</menu>
