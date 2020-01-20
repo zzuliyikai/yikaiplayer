@@ -35,11 +35,11 @@ abstract class BaseFragment : Fragment(), AnkoLogger{
 
     }
 
-    protected fun initListener() {
+    open protected fun initListener() {
 
     }
 
-    protected fun initData() {
+    open protected fun initData() {
 
     }
 

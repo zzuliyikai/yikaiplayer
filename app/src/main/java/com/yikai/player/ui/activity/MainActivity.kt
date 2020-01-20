@@ -11,6 +11,10 @@ class MainActivity : BaseActivity(), ToolbarManager {
     override val toolbar: Toolbar by lazy {
        find<Toolbar>(R.id.toolbar)
     }
+    val bnv:BottomNavigationView by lazy {
+        find<BottomNavigationView>(R.id.bnv)
+    }
+
 
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener {
 
@@ -41,6 +45,7 @@ class MainActivity : BaseActivity(), ToolbarManager {
 
     override fun initData() {
         initMainToolbar()
+        bnv.selectedItemId = R.id.tab1
     }
 
     override fun initListener() {
